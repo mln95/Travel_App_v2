@@ -9,6 +9,12 @@ This application is the last project of the Frontend developer udacity nano degr
 each input ask a specific data, the progression is a slide like form. Each submit button as its own js file to deal with the user interaction.
 All the data is displayed in the handleSubmit_fifth js.file. Some of the variables from the others js files has been set globally to make them available for displaying. 
 
+The checkLocalisation.js file has not been used. It will be used for the a futur version of the app. 
+
+regarding the scss files header.scss footer.scss and form.scss have not been used. They will be used for a futur version of the app.
+
+Please note that the actual design of the app is about to be completely reshaped as well as a part of the javascript code. The purpose is to do a more classic one page web app and to have a better scalable code. 
+
 ## DEPENDENCIES INSTALLED
 
 ### DEPENDENCIES
@@ -36,3 +42,11 @@ All the data is displayed in the handleSubmit_fifth js.file. Some of the variabl
 * "style-loader": "^2.0.0",
 * "url-loader": "^4.1.1",
 * "webpack-dev-server": "^3.11.2"
+
+## MAKE THE APP WORKS
+
+As a first step use this command line on your you own IDE : npm run build prod
+
+Then start the server through this command line : npm start
+
+
