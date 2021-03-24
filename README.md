@@ -42,6 +42,7 @@ Please note that the actual design of the app is about to be completely reshaped
 * "style-loader": "^2.0.0",
 * "url-loader": "^4.1.1",
 * "webpack-dev-server": "^3.11.2"
+* "workbox-webpack-plugin": "^6.1.2"
 
 ## MAKE THE APP WORKS
 
@@ -49,4 +50,13 @@ As a first step use this command line on your you own IDE : npm run build prod
 
 Then start the server through this command line : npm start
 
+## OPTION FOR PROJECT STAND OUT
+
+We have implemented those option to make the project standout : 
+* Add end date and display length of trip.
+* Incorporate icons into forecast.
+
+The developer team is willing to complete all the option in a another version. To do so the develooper team will either change the design or miniaturize the data displayed for a city once the user want to try another destination. 
+
+The data miniaturize will be displayed in another page where all the new submitted destination will come along.
 
