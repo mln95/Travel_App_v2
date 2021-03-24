@@ -1,0 +1,76 @@
+#geonames{
+    background-color: rgba($color: #FFFFFF, $alpha: 0.7);
+    width: 50vw;
+    margin: 0 auto;
+    display: none;
+    padding: 10px;
+    color: #2d9ee9;
+    position: relative;
+}
+
+#geonames span{
+    font-weight: bold;
+}
+
+#geonames h1{
+    color: #0067ac;
+    text-decoration: underline;
+}
+
+#dayLeft{
+    font-size: 10em;
+    position: absolute;
+    top:11%;
+    right: 20%;
+    margin: 0;
+}
+
+#caption_text_geonames{
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    margin: 0;
+    text-align: center;
+}
+
+#weatherbit{
+    display: none;
+    background-color: rgba($color: #FFFFFF, $alpha: 0.7);
+    width: 50vw;
+    margin: 10px auto 0 auto;
+    color: #2d9ee9;
+    padding: 10px;
+    position: relative;
+}
+
+#weatherbit h1{
+    color: #0067ac;
+    text-decoration: underline;
+}
+
+#weatherbit span{
+    font-weight: bold;
+}
+#weatherbit img{
+    float: left;
+    position: relative;
+    top: -23px;
+}
+#weather_departing{
+    margin-left: 140px;
+}
+
+#trip_length{
+    font-size: 10em;
+    position :absolute;
+    margin: 0;
+    top: 5.5%;
+    right: 20%;
+}
+#caption_text_weatherbit{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    margin: 0;
+    text-align: center;
+}

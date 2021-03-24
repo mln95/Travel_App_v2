@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  width: 60vw;
+  margin: 0 auto;
+  border-radius: 5px 5px 0 0;
+  background-image: url(../images/seychelle.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+form{
+ padding: 20vh 0 0 10vw;
+ z-index: 1;
+ position: relative;
+}
+
+form h1{
+  margin: 0;
+}
+
+#dataUserGroup{
+  position: relative;
+}
+
+form .fa-search{
+  position: absolute;
+  color: rgba($color: #ffffff, $alpha: 0.5);
+  font-size: 1.5em;
+  top: 2vh;
+  left: 0.5vw;
+}
+
+.slide_question{
+  margin-bottom: 2vh;
+}
+
+h1{
+  color: rgba($color: #ffffff, $alpha: 1);
+}
+
+#city_destination,#trip_last,#trip_feeling{
+  border-radius: 5px;
+  border: 1px solid rgb(134, 178, 207);
+  background-color:rgba($color: #FFFFFF, $alpha: 0.7);
+  color: #86b2cf;
+  padding: 2vh 0;
+  // margin-top: 2vh;
+  width: 38vw;
+  text-indent: 30px;
+  min-height:1.5em;
+}
+
+#trip_start{
+  border-radius: 5px;
+  border: 1px solid rgb(134, 178, 207);
+  background-color:rgba($color: #FFFFFF, $alpha: 0.7);
+  color: #86b2cf;
+  padding: 2vh 0;
+  margin-top: 2vh;
+  width: 38vw;
+  text-indent: 20px;
+  min-height:1.5em;
+}
+
+#city_destination:hover,#trip_start:hover, #trip_last:hover,#trip_feeling:hover{
+  background-color: rgba($color: #86b2cf, $alpha: 0.5);
+  color: rgba($color: #FFFFFF, $alpha: 0.5);
+}
+
+.style_submit{
+  margin-top: 2vh;
+  padding: 1vh 1vw;
+  border-radius: 5px;
+  border: 1px solid #86b2cf;
+  border: none;
+  background-color: rgba($color: #FFFFFF, $alpha: 0.5);
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.style_submit:hover{
+  background-color: rgba($color: #86b2cf, $alpha: 0.5);
+}
+
+::placeholder{
+  color: rgba($color: #86b2cf, $alpha: 0.5);
+  // text-transform: uppercase;
+  // padding: 0 0 0 30px;
+}
+
+input:hover::placeholder{
+  color:rgba($color: #FFFFFF, $alpha: 0.5)
+}
+
+input:focus{
+  outline: none;
+}
+
+#second_submit, #third_submit, #fourth_submit, #fifth_submit{
+  display: none;
+}
