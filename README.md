@@ -11,10 +11,10 @@ All the data is displayed in the handleSubmit_fifth js.file. Some of the variabl
 
 ## DEPENDENCIES INSTALLED
 
-..*"body-parser": "^1.19.0",
-..*"cors": "^2.8.5",
-..*"dotenv": "^8.2.0",
-..*"express": "^4.17.1",
-..*"node-fetch": "^2.6.1",
-..*"webpack": "^5.25.0",
-..*"webpack-cli": "^4.5.0"
+*"body-parser": "^1.19.0",
+*"cors": "^2.8.5",
+*"dotenv": "^8.2.0",
+*"express": "^4.17.1",
+*"node-fetch": "^2.6.1",
+*"webpack": "^5.25.0",
+*"webpack-cli": "^4.5.0"
